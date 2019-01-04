@@ -24,5 +24,21 @@ You can combine these two to create an isomorphic app.
 
 <img src="https://github.com/AkibS/react_ssr/blob/master/media/1_jJkEQpgZ8waQ5P-W5lhxuQ.png" width="500"/>
 
-# reference
-https://medium.freecodecamp.org/server-side-rendering-your-react-app-in-three-simple-steps-7a82b95db82e
+
+The main difference is that for SSR your server’s response to the browser is the HTML of your page that is ready to be rendered, while for CSR the browser gets a pretty empty document with links to your javascript. That means your browser will start rendering the HTML from your server without having to wait for all the JavaScript to be downloaded and executed. In both cases, React will need to be downloaded and go through the same process of building a virtual dom and attaching events to make the page interactive — but for SSR, the user can start viewing the page while all of that is happening. For the CSR world, you need to wait for all of the above to happen and then have the virtual dom moved to the browser dom for the page to be viewable.
+
+# When to use SSR?
+
+1. SEO
+2. Improve performance
+
+# Cons of SSR
+-SSR can improve performance if your application is small. But it can also degrade performance if it is heavy.
+-It increases the complexity of the application.
+
+
+referred folllowing blogs:
+1. https://medium.freecodecamp.org/server-side-rendering-your-react-app-in-three-simple-steps-7a82b95db82e
+2. https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8
+
+
