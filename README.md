@@ -20,8 +20,9 @@ You can combine these two to create an isomorphic app.
 
 # Flow of CSR and SSR
 
-![alt text](http://url/to/img.png)
+<img src="https://github.com/AkibS/react_ssr/blob/master/media/1_CRiH0hUGoS3aoZaIY4H2yg.png" width="500"/>
 
+<img src="https://github.com/AkibS/react_ssr/blob/master/media/1_jJkEQpgZ8waQ5P-W5lhxuQ.png" width="500"/>
 
 # reference
 https://medium.freecodecamp.org/server-side-rendering-your-react-app-in-three-simple-steps-7a82b95db82e
